@@ -1,0 +1,70 @@
+#header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(119, 67, 3);
+   text-align: center;
+   height: auto;
+}
+#logo{
+    display: none;
+}
+/* #navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+} */
+#navbar a{
+    display: flex;
+    text-decoration: none;
+    padding: 8px;
+    margin: 8px;
+    font-size: 24px;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+}
+#navbar a:hover{
+    background-color: black;
+    color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 50px;
+    /* height: 300px; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 117, 117);
+}
+#home h1, p{
+    text-align: center;
+    padding: 23px;
+}
+.primary{
+    font-size: 35px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.box img{
+    width: 60%;
+}
+.box{
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding: 13px;
+    margin: 13px;
+}
+#clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
